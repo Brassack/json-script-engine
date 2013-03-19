@@ -1,3 +1,5 @@
+README witch link http://brassack.github.com/json-script-engine/
+
 что это?
 
 	:Интерпретатор скриптов закодированных в JSON.
