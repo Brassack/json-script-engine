@@ -11,7 +11,8 @@
 	генерируемый графическим конструктором или транслируемый из более понятно языка.
 Тьюрин полнота?
 
-	:Да. Смотрим в examples - Post–Turing machine.
+	:Да. Смотрим в examples - Post–Turing machine 
+	http://brassack.github.com/json-script-engine/example/Post%E2%80%93Turing%20machine/.
 Перспективы?
 
 	:Черт его знает. Подожду посмотрю более трезвым взглядом - быть может он вообще не нужен. 
@@ -21,4 +22,7 @@
 	
 Примеры
 
-	: Машина поста, проверка условий квеста
+	: Машина поста
+	http://brassack.github.com/json-script-engine/example/Post%E2%80%93Turing%20machine/
+	, проверка условий квеста
+	http://brassack.github.com/json-script-engine/example/quest%20example/
