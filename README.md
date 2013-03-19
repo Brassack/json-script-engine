@@ -1,4 +1,4 @@
-README witch link http://brassack.github.com/json-script-engine/
+README witch hyperlink http://brassack.github.com/json-script-engine/
 
 что это?
 
