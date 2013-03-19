@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+<script src='data.js'></script>
+<script src='script.js'></script>
+<script src='scriptEngine.js'></script>
+</head>
+<body>
+   <br/>vj - поставить метку, перейти к j-й строке программы.
+   <br/>xj - стереть метку, перейти к j-й строке программы.
+   <br/>&lt;j - сдвинуться влево, перейти к j-й строке программы.
+   <br/>>j - сдвинуться вправо, перейти к j-й строке программы.
+   <br/>?j1: j2 - если в ячейке нет метки, то перейти к j1-й строке программы, иначе перейти к j2-й строке программы.
+   <br/>! – конец программы (стоп).
+<div id='machine'></div>
+<div id='container'>
+	<span id='1_span'>1</span><input id='1_text' type='text'></input>
+</div>
+<br/><span id='!_span'>2</span><input  type='text' disabled value='!'></input>
+<br/><button onclick='newCommand()'>Добавить</button>
+<button onclick='delCommand()'>Удалить</button>
+<br/><button onclick='run()'>Запуск</button>
+<br/>текущая команда<div id='command'></div><button onclick='next()'>Следующий</button>
+<br/><button onclick='reset()'>Сброс ленты</button>
+<script type="text/javascript">printMachine();</script>
+</body>
+</html>
